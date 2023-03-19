@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.3/css/bootstrap-grid.min.css" integrity="sha512-JQksK36WdRekVrvdxNyV3B0Q1huqbTkIQNbz1dlcFVgNynEMRl0F8OSqOGdVppLUDIvsOejhr/W5L3G/b3J+8w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/dropzone.css" integrity="sha512-7uSoC3grlnRktCWoO4LjHMjotq8gf9XDFQerPuaph+cqR7JC9XKGdvN+UwZMC14aAaBDItdRj3DcSDs4kMWUgg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="/Jquery.min.js"></script>
+</head>
+<body>
+    <div class=" py-33 px-80" style="border-bottom: 1px solid #E1E1E1;">
+        <div class="flex justify-between align-center" >
+            <div class="relative" style="width: 200px;">
+                <div class="absolute" style="z-index: 999999999; left: -120px; top: -12px;">
+                    <a href="/index.html">
+                        <img class="logo" src="/img/LOGO.svg" alt="">
+                        </a>
+                </div>
+            </div>
+            <div class="relative">
+                <input class="search" type="text" placeholder="Arama Yap">
+                <img class="absolute serach-logo" src="img/ara.svg" alt="">
+            </div>
+            <div>   
+                <a href="#">
+                    <div class="bg-green">
+                        <p class="mb-0 register py-12 px-61">Üye Ol</p>
+                    </div>
+                </a>
+            </div>
+            <div class="flex gap-20 align-center">
+                <a href="#">
+                    <img class="w-24 h-24" src="img/facebook.svg" alt="">
+                </a>
+                <a href="#">
+                    <img class="w-24 h-24" src="img/instagram.svg" alt="">
+                </a>
+                <a href="#">
+                    <img class="w-24 h-24" src="img/twitter.svg" alt="">
+                </a>
+                <a href="#">
+                    <img class="w-24 h-24" src="img/linkedin.svg" alt="">
+                </a>
+                <a href="#">
+                    <img class="w-24 h-24" src="img/youtube.svg" alt="">
+                </a>
+            </div>
+            <div class="flex align-center gap-44">
+                <div>
+                    <img  class="w-18 h-20" src="/img/bildirimler-icon copy.svg" alt="">
+                </div>
+                <div>
+                    <img class="w-29 h-20" src="/img/menu.svg" alt="">
+                </div>
+            </div>
+           
+        </div>
+    </div>
+
+    <div class="col-lg-12 col-md-12 col-sm-12 pl-0">
+        <div class="row">
+            <div class="col-lg-3 col-md-10 col-sm-10 pl-0">
+                <div class="bg-blue h-100 w-100 relative">
+                    <div class="px-92">
+                        <p class="mb-12 pt-39 menu-header">PAGES</p>
+                        <div class="flex flex-wrap gap-20">
+                            <div class="w-100">
+                                <a href="">
+                                    <div class="flex gap-12">
+                                        <img class="w-24 h-24" src="/img/Shapes.svg" alt="">
+                                        <p class="menu-text">Dashboard</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="w-100">
+                                <a href="">
+                                    <div class="flex gap-12">
+                                        <img class="w-24 h-24" src="/img/Icon.svg" alt="">
+                                        <p class="menu-text">Analytics</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="flex justify-between align-center w-100 cursor-pointer">
+                                <div class="flex gap-12">
+                                    <img class="w-24 h-24" src="/img/Shapes (1).svg" alt="">
+                                    <p class="menu-text">E-Commerce</p>
+                                </div>
+                                <img class="menu-arrow" src="/img/Path.svg" alt="">
+                            </div>
+                            <div class="flex justify-between align-center w-100 cursor-pointer">
+                                <div class="flex gap-12">
+                                    <img class="w-24 h-24" src="/img/Shapes (2).svg" alt="">
+                                    <p class="menu-text">Team</p>
+                                </div>
+                                <img class="menu-arrow" src="/img/Path.svg" alt="">
+                            </div>
+                            <div class="w-100">
+                                <a href="">
+                                    <div class="flex gap-12">
+                                        <img class="w-24 h-24" src="/img/Icon (1).svg" alt="">
+                                        <p class="menu-text">Campaigns</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="flex justify-between align-center w-100 cursor-pointer">
+                                <div class="flex gap-12">
+                                    <img class="w-24 h-24" src="/img/1.svg" alt="">
+                                    <p class="menu-text">Messages</p>
+                                </div>
+                                <div class="bg-green">
+                                    <p class="mb-0 py-4 px-8 message-count">0</p>
+                                </div>
+                            </div>
+                            <div class="w-100">
+                                <a href="">
+                                    <div class="flex gap-12">
+                                        <img class="w-24 h-24" src="/img/2.svg" alt="">
+                                        <p class="menu-text">Tasks</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="w-100">
+                                <a href="">
+                                    <div class="flex gap-12">
+                                        <img class="w-24 h-24" src="/img/Icon (3).svg" alt="">
+                                        <p class="menu-text">Inbox</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="w-100">
+                                <a href="">
+                                    <div class="flex gap-12">
+                                        <img class="w-24 h-24" src="/img/Icon (4).svg" alt="">
+                                        <p class="menu-text">Calendar</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="flex justify-between align-center w-100 cursor-pointer">
+                                <div class="flex gap-12">
+                                    <img class="w-24 h-24" src="/img/Icon (5).svg" alt="">
+                                    <p class="menu-text">Settings</p>
+                                </div>
+                                <img class="menu-arrow" src="/img/Path.svg" alt="">
+                            </div>
+                            <div class="flex justify-between align-center w-100 cursor-pointer">
+                                <div class="flex gap-12">
+                                    <img class="w-24 h-24" src="/img/Icon (6).svg" alt="">
+                                    <p class="menu-text">Utility</p>
+                                </div>
+                                <img class="menu-arrow" src="/img/Path.svg" alt="">
+                            </div>
+                        </div>
+                        <p class="mb-12 pt-39 menu-header">MORE</p>
+                        <div class="flex flex-wrap gap-20">
+                           
+                            <div class="flex justify-between align-center w-100 cursor-pointer">
+                                <div class="flex gap-12">
+                                    <img class="w-24 h-24" src="/img/Icon (7).svg" alt="">
+                                    <p class="menu-text">Authentication</p>
+                                </div>
+                                <img class="menu-arrow" src="/img/Path.svg" alt="">
+                            </div>
+                            <div class="flex justify-between align-center w-100 cursor-pointer">
+                                <div class="flex gap-12">
+                                    <img class="w-24 h-24" src="/img/Icon (8).svg" alt="">
+                                    <p class="menu-text">Onboarding</p>
+                                </div>
+                                <img class="menu-arrow" src="/img/Path.svg" alt="">
+                            </div>
+                            <div class="flex justify-between align-center w-100 cursor-pointer">
+                                <div class="flex gap-12">
+                                    <img class="w-24 h-24" src="/img/Icon (9).svg" alt="">
+                                    <p class="menu-text">Components</p>
+                                </div>
+                                <img class="menu-arrow" src="/img/Path.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="flex justify-center mt-24 mb-41">
+                            <img src="/img/logobelediye.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="absolute rectangle-position">
+                        <img class="rectangle" src="/img/rec.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-12 col-sm-12">
+                <div class="flex justify-center mt-38" >
+                    <div class="grid bb-1" >
+                        <p class="title">Deprem Bağışı</p>
+                        <p class="mt-8 undertitle">Lorem ipsum sit down</p>
+                    </div>
+                </div>
+                <div class="flex gap-67 align-center justify-center">
+                    <div class="mt-52 flex justify-center">
+                        <form action="">
+                        <div class="grid gap-16">
+                            <select class="select-custom mySelect"  name="" id="item">
+                                <option disabled selected value="0">Eşya Tipi Seçiniz</option>
+                                <option class="myoption" value="Barınma">Barınma</option>
+                                <option class="myoption" value="Yiyecek">Yiyecek</option>
+                            </select>
+                            <select class="select-custom mySelect"  name="" id="type">
+                                <option disabled selected value="0">Eşya Türü Seçiniz</option>
+                                <option class="myoption" value="deneme-1">deneme-1</option>
+                                <option class="myoption" value="deneme-2">deneme-2</option>
+                            </select>
+                            <select class="select-custom mySelect"  name="" id="question">
+                                <option disabled selected value="0">Eşya Çalışır Durumda mı?</option>
+                                <option class="myoption" value="Evet">Evet</option>
+                                <option class="myoption" value="Hayır">Hayır</option>
+                            </select>
+                            <div class="dropzone"></div>
+                            <select class="select-custom mySelect"  name="" id="count">
+                                <option disabled selected value="0">Adet</option>
+                                <option class="myoption" value="1">1</option>
+                                <option class="myoption" value="2">2</option>
+                                <option class="myoption" value="3">3</option>
+                                <option class="myoption" value="3+">3+</option>
+                            </select>
+                            <input class="form-2" id="adress" type="text" placeholder="Eşyanın Alınacağı Adres" required>
+                            <input class="form-2" id="phone" type="text" placeholder="Teslim Edecek Kişi Telefon No" required>
+
+                            <div class="bg-grey add mt-40 cursor-pointer">
+                                <p class="mb-0 register py-12 px-134">Ekle</p>
+                            </div>
+                        </div>
+                    </form>
+                    </div>
+                    <div class="bl-1 mt-52"></div>
+                    <div>
+                        <div class="b-1 ">
+                            <p class="donate text-align">Eşya Bağışı Bulunmamaktadır.</p>
+                        </div>
+                        <div class="b-2 px-26 py-20 relative">
+                            <img class="w-100 h-165" id="serhat" src="/img/128a11e9b3b3b985ce5c3262f2e85531.png" alt="">
+                            <div class="grid gap-8 mt-20">
+                                <p class="info" id="val">Esya Tipi:</p>
+                                <p class="info" id="val2">Esya Türü:</p>
+                                <p class="info" id="val3">Adet:</p>
+                                <p class="info" id="val4">Telefon:</p>
+                                <p class="info" id="val5">Adress:</p>
+                            </div>
+                            <div class="flex  align-center gap-12 mt-137">
+                                <input class="w-20 h-20" type="checkbox" name="" id="">
+                                <a class="kvkk" style="text-decoration: underline;" href="">Bağış Metni</a>
+                            </div>
+                            <div class="bg-green send mt-22">
+                                <p class="mb-0 register py-12 px-121 cursor-pointer">Gönder</p>
+                            </div>
+                            <div class="bg-white readd mt-20">
+                                <p class="mb-0 register-2 py-12 px-96 cursor-pointer">Yeni Eşya Ekle</p>
+                            </div>
+                            <div class="absolute cursor-pointer delete" style="right: 26px; top: 14px;">
+                                <img src="/img/Close Square.svg" alt="">
+                            </div>
+                            <div class="absolute cursor-pointer delete" style="top:195px; right: 26px;" >
+                                <img src="/img/sil.svg" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+ 
+
+    <script src="script.js"></script>
+ 
+    <script src="/Jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/dropzone.min.js" integrity="sha512-U2WE1ktpMTuRBPoCFDzomoIorbOyUv0sP8B+INA3EzNAhehbzED1rOJg6bCqPf/Tuposxb5ja/MAUnC8THSbLQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/dropzone.css" integrity="sha512-7uSoC3grlnRktCWoO4LjHMjotq8gf9XDFQerPuaph+cqR7JC9XKGdvN+UwZMC14aAaBDItdRj3DcSDs4kMWUgg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script>
+// Gerekli tüm alanlar doldurulduktan sonra submit butonuna tıklandığında çalışacak kod
+$(document).ready(function() {
+  // Input alanlarının değişimlerini kontrol etmek için event listener ekleme
+  $('form input').on('input', function() {
+    // Tüm input alanlarının değerlerini al
+    var formValues = {};
+    $('form input').each(function() {
+      formValues[this.name] = this.value;
+    });
+
+    // Tüm alanların dolu olup olmadığını kontrol et
+    var formFilled = true;
+    for (var key in formValues) {
+      if (formValues[key] === '') {
+        formFilled = false;
+        break;
+      }
+    }
+
+    // Submit butonunun tıklanabilir özelliğini etkinleştir
+    if (formFilled) {
+        $('.bg-grey').css('pointer-events','all');
+        $('.bg-grey').css('background-color','#41CB83');
+    } 
+    else {
+        
+    }
+  });
+});
+  </script>
+  <script>
+    var Adddata = new FormData();
+    var AddLogoFiles = [];
+    var errorFiles = [];
+
+
+     $(".dropzone").dropzone({
+    dictDefaultMessage: " <p>Dosya Seçiniz</p>",
+    url: "/SubmitProperty",
+    addRemoveLinks: true,
+    maxFilesize: 10,
+    maxFiles: 4,
+    init: function () {
+      this.on("complete", function (file) {
+        var dataObj = {};
+        dataObj.Files = file;
+        AddLogoFiles.push(dataObj);
+        dataObj = {};
+        $(AddLogoFiles).each(function (i) {
+          $(errorFiles).each(function (j) {
+            if (AddLogoFiles[i].Files.name === errorFiles[j].name) {
+              AddLogoFiles.splice(i, 1);
+              errorFiles.splice(j, 1);
+            }
+          });
+        });
+      });
+      this.on("maxfilesexceeded", function () {
+        if (this.files[1] != null) {
+          this.removeFile(this.files[0]);
+        }
+      });
+      this.on('removedfile', function (file) {
+        $.each(AddLogoFiles, function (i) {
+          if (AddLogoFiles[i].Files.name === file.name) {
+            AddLogoFiles.splice(i, 1);
+            return false;
+          }
+        });
+      });
+      this.on("error", function (file, message) {
+        if (message == "MaxFileSize") {
+          alert("Seçtiğiniz dosyanın boyutu çok fazla ( " + Math.round(file.size / 1024 / 10.24) / 100 + " MB). En Fazla: 10MB Yükleyebilirsiniz.");
+          errorFiles.push(file);
+          this.removeFile(file);
+        }
+      });
+    }
+  });
+
+  $('.add').click(function()
+    {
+        var select1 = $('#item').val();
+        var select2 = $('#type').val();
+        var select3 = $('#count').val();
+        var input1 = $('#adress').val();
+        var input2 = $('#phone').val();
+
+        AddLogoFiles.forEach(function(file) {
+            $('#val').html('Esya Tipi:' + select1);
+            $('#val2').html('Esya Türü:' + select2);
+            $('#val3').html('Adet:' + select3);
+            $('#val4').html('Telefon:' + input2);
+            $('#val5').html('Adres:' + input1);
+            $("#serhat").attr("src", file.Files.dataURL);
+            console.log(file.Files.dataURL);
+        });
+
+        $('.b-1').css('display','none');
+        $('.b-2').css('display','grid');
+        $('.gap-67').removeClass('align-center');
+        $('.b-2').addClass('mt-52');
+
+
+
+    });
+
+    $('.send').click(function()
+    {
+        setTimeout(function () {
+            window.location.reload();
+          },
+            1000);
+    });
+
+    $('.delete').click(function()
+    {
+        setTimeout(function () {
+            window.location.reload();
+          },
+            0);
+    });
+
+  </script>
+</body>
+</html>

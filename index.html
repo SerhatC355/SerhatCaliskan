@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.3/css/bootstrap-grid.min.css" integrity="sha512-JQksK36WdRekVrvdxNyV3B0Q1huqbTkIQNbz1dlcFVgNynEMRl0F8OSqOGdVppLUDIvsOejhr/W5L3G/b3J+8w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/dropzone.css" integrity="sha512-7uSoC3grlnRktCWoO4LjHMjotq8gf9XDFQerPuaph+cqR7JC9XKGdvN+UwZMC14aAaBDItdRj3DcSDs4kMWUgg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="/Jquery.min.js"></script>
+</head>
+<body>
+    <div class=" py-33 px-80" style="border-bottom: 1px solid #E1E1E1;">
+        <div class="flex justify-between align-center" >
+            <div class="relative" style="width: 200px;">
+                <div class="absolute" style="z-index: 999999999; left: -120px; top: -12px;">
+                    <a href="/index.html">
+                    <img class="logo" src="/img/LOGO.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="relative">
+                <input class="search" type="text" placeholder="Arama Yap">
+                <img class="absolute serach-logo" src="img/ara.svg" alt="">
+            </div>
+            <div>   
+                <a href="#">
+                    <div class="bg-green">
+                        <p class="mb-0 register py-12 px-61">Üye Ol</p>
+                    </div>
+                </a>
+            </div>
+            <div class="flex gap-20 align-center">
+                <a href="#">
+                    <img class="w-24 h-24" src="img/facebook.svg" alt="">
+                </a>
+                <a href="#">
+                    <img class="w-24 h-24" src="img/instagram.svg" alt="">
+                </a>
+                <a href="#">
+                    <img class="w-24 h-24" src="img/twitter.svg" alt="">
+                </a>
+                <a href="#">
+                    <img class="w-24 h-24" src="img/linkedin.svg" alt="">
+                </a>
+                <a href="#">
+                    <img class="w-24 h-24" src="img/youtube.svg" alt="">
+                </a>
+            </div>
+            <div class="flex align-center gap-44">
+                <div>
+                    <img  class="w-18 h-20" src="/img/bildirimler-icon copy.svg" alt="">
+                </div>
+                <div>
+                    <img class="w-29 h-20" src="/img/menu.svg" alt="">
+                </div>
+            </div>
+           
+        </div>
+    </div>
+
+    <div class="col-lg-12 col-md-12 col-sm-12 pl-0">
+        <div class="row">
+            <div class="col-lg-3 col-md-10 col-sm-10 pl-0">
+                <div class="bg-blue h-100 w-100 relative">
+                    <div class="px-92">
+                        <p class="mb-12 pt-39 menu-header">PAGES</p>
+                        <div class="flex flex-wrap gap-20">
+                            <div class="w-100">
+                                <a href="">
+                                    <div class="flex gap-12">
+                                        <img class="w-24 h-24" src="/img/Shapes.svg" alt="">
+                                        <p class="menu-text">Dashboard</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="w-100">
+                                <a href="">
+                                    <div class="flex gap-12">
+                                        <img class="w-24 h-24" src="/img/Icon.svg" alt="">
+                                        <p class="menu-text">Analytics</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="flex justify-between align-center w-100 cursor-pointer">
+                                <div class="flex gap-12">
+                                    <img class="w-24 h-24" src="/img/Shapes (1).svg" alt="">
+                                    <p class="menu-text">E-Commerce</p>
+                                </div>
+                                <img class="menu-arrow" src="/img/Path.svg" alt="">
+                            </div>
+                            <div class="flex justify-between align-center w-100 cursor-pointer">
+                                <div class="flex gap-12">
+                                    <img class="w-24 h-24" src="/img/Shapes (2).svg" alt="">
+                                    <p class="menu-text">Team</p>
+                                </div>
+                                <img class="menu-arrow" src="/img/Path.svg" alt="">
+                            </div>
+                            <div class="w-100">
+                                <a href="">
+                                    <div class="flex gap-12">
+                                        <img class="w-24 h-24" src="/img/Icon (1).svg" alt="">
+                                        <p class="menu-text">Campaigns</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="flex justify-between align-center w-100 cursor-pointer">
+                                <div class="flex gap-12">
+                                    <img class="w-24 h-24" src="/img/1.svg" alt="">
+                                    <p class="menu-text">Messages</p>
+                                </div>
+                                <div class="bg-green">
+                                    <p class="mb-0 py-4 px-8 message-count">0</p>
+                                </div>
+                            </div>
+                            <div class="w-100">
+                                <a href="">
+                                    <div class="flex gap-12">
+                                        <img class="w-24 h-24" src="/img/2.svg" alt="">
+                                        <p class="menu-text">Tasks</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="w-100">
+                                <a href="">
+                                    <div class="flex gap-12">
+                                        <img class="w-24 h-24" src="/img/Icon (3).svg" alt="">
+                                        <p class="menu-text">Inbox</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="w-100">
+                                <a href="">
+                                    <div class="flex gap-12">
+                                        <img class="w-24 h-24" src="/img/Icon (4).svg" alt="">
+                                        <p class="menu-text">Calendar</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="flex justify-between align-center w-100 cursor-pointer">
+                                <div class="flex gap-12">
+                                    <img class="w-24 h-24" src="/img/Icon (5).svg" alt="">
+                                    <p class="menu-text">Settings</p>
+                                </div>
+                                <img class="menu-arrow" src="/img/Path.svg" alt="">
+                            </div>
+                            <div class="flex justify-between align-center w-100 cursor-pointer">
+                                <div class="flex gap-12">
+                                    <img class="w-24 h-24" src="/img/Icon (6).svg" alt="">
+                                    <p class="menu-text">Utility</p>
+                                </div>
+                                <img class="menu-arrow" src="/img/Path.svg" alt="">
+                            </div>
+                        </div>
+                        <p class="mb-12 pt-39 menu-header">MORE</p>
+                        <div class="flex flex-wrap gap-20">
+                           
+                            <div class="flex justify-between align-center w-100 cursor-pointer">
+                                <div class="flex gap-12">
+                                    <img class="w-24 h-24" src="/img/Icon (7).svg" alt="">
+                                    <p class="menu-text">Authentication</p>
+                                </div>
+                                <img class="menu-arrow" src="/img/Path.svg" alt="">
+                            </div>
+                            <div class="flex justify-between align-center w-100 cursor-pointer">
+                                <div class="flex gap-12">
+                                    <img class="w-24 h-24" src="/img/Icon (8).svg" alt="">
+                                    <p class="menu-text">Onboarding</p>
+                                </div>
+                                <img class="menu-arrow" src="/img/Path.svg" alt="">
+                            </div>
+                            <div class="flex justify-between align-center w-100 cursor-pointer">
+                                <div class="flex gap-12">
+                                    <img class="w-24 h-24" src="/img/Icon (9).svg" alt="">
+                                    <p class="menu-text">Components</p>
+                                </div>
+                                <img class="menu-arrow" src="/img/Path.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="flex justify-center mt-24 mb-41">
+                            <img src="/img/logobelediye.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="absolute rectangle-position">
+                        <img class="rectangle" src="/img/rec.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-12 col-sm-12">
+                <div class="flex justify-center al mt-38" >
+                    <div class="grid bb-1" >
+                        <p class="title">Deprem Bağışı</p>
+                        <p class="mt-8 undertitle">Lorem ipsum sit down</p>
+                        <div class="mt-52 flex justify-center">
+                            <select class="select-custom mySelect"  name="" id="mySelect">
+                                <option disabled selected value="0">Başvuru Tipini Seçiniz.</option>
+                                <option class="myoption" value="2">Vatandaş</option>
+                                <option class="myoption" value="3">Diğer</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center none-container">
+                    <div class="grid gap-16">
+                        <p class="title-2 mt-24">Vatandaş Başvurusu</p>
+                        <input class="form" type="text" placeholder="59443576864" required>
+                        <input class="form" type="text" placeholder="Mahsun" required>
+                        <input class="form" type="text" placeholder="Budak" required>
+                        <input class="form" type="date" placeholder="01.02.1990" required>
+                    </div>
+                </div>
+                <div class="flex  justify-center align-center gap-12 mt-24 none-container">
+                    <input class="w-20 h-20" type="checkbox" name="" id="">
+                    <a class="kvkk" style="text-decoration: underline;" href="">Kişisel verilerin korunması hakkında</a>
+                </div>
+                <a href="basvuru.html">
+                    <div class="flex justify-center none-container mt-69 cursor-pointer">
+                        <div class="bg-green">
+                            <p class="mb-0 register py-12 px-102">Başvuru Yap</p>
+                        </div>
+                    </div>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+
+
+ 
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/dropzone.min.js" integrity="sha512-U2WE1ktpMTuRBPoCFDzomoIorbOyUv0sP8B+INA3EzNAhehbzED1rOJg6bCqPf/Tuposxb5ja/MAUnC8THSbLQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/Jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      $('.mySelect').click(function() {
+         var val = $('.mySelect').val();
+         if (val != null){
+            $('.none-container').css('display','flex');
+         }
+        });
+
+    </script>
+
+</body>
+</html>
